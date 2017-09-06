@@ -11,7 +11,7 @@ do
 	for PID in $ALLPID
 	do
 		echo "Processing FID: $FID with PID: $PID"
-        #Remove share ID (USER) from the file
+        	#Remove share ID (USER) from the file
 		gdrive share revoke $FID $PID
 	done
 done
