@@ -1,7 +1,5 @@
 # google-drive-reset-share
 
-----------
-
 A simple shell script for google drive files sharing option reset.
 
 If you want to remove anyone who can access your files, you can :
